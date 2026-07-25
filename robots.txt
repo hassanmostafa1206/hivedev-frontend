@@ -1,0 +1,13 @@
+# HiveDev — robots.txt
+# https://hivedev-pro.vercel.app/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block admin or private paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.env
+
+# Sitemap location
+Sitemap: https://hivedev-pro.vercel.app/sitemap.xml
